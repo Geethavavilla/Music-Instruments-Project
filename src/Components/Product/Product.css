@@ -1,0 +1,23 @@
+.products-img{
+    width: 270px;
+    height: 200px;
+}
+.line-strike{
+    text-decoration: line-through;
+}
+.price-tag{
+    margin-top: -15px;
+    margin-right: 57px;
+}
+.buy-now{
+    width:120px;
+    height: 40px;
+    border-radius: 20px;
+}
+.cards-header{
+    display: flex;
+    flex-direction: row;
+}
+.card-item{
+   margin-left: 15px;
+}

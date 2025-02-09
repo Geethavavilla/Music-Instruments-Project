@@ -1,0 +1,61 @@
+.submit-form{
+    border: 1px solid black;
+    width: 300px;
+    height:400px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 10px;
+
+    
+}
+.product-name{
+    width: 250px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+.add-product{
+    width: 130px;
+    height: 40px;
+    border-radius: 30px;
+}
+.add-products {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .add-products h1 {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .add-products input {
+    padding: 10px;
+    font-size: 1em;
+    margin-right: 10px;
+  }
+  
+  .add-products button {
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .add-products ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .add-products li {
+    font-size: 1.2em;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .add-products img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+  }
+  
