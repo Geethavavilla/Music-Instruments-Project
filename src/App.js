@@ -9,17 +9,9 @@ import Menu from './Components/Menu/Menu';
 import NotFound from "./Components/Pages/NotFound"
 
 
-
-
-
-
-
-
-
 const App = () =>
   {
-   
-  
+    
   return (
     <>
 
@@ -28,12 +20,11 @@ const App = () =>
           <Routes>
             <Route path="/" element={<Menu></Menu>} />
             <Route path="/home" element={<Homes></Homes>} />
-            <Route path="/products" element={<Products products={Products}></Products>} />
-            <Route path="/add-product" element={<Addproducts></Addproducts>}></Route>
+            <Route path="/products" element={<Products></Products>} />
+            <Route path="/addproduct" element={<Addproducts></Addproducts>}></Route>
             <Route path="*" element={<NotFound></NotFound>}></Route> 
           </Routes>
        
-
       </BrowserRouter>
     </>
   );

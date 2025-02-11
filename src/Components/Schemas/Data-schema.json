@@ -1,0 +1,161 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "array",
+    "items": [
+      {
+        "type": "object",
+        "properties": {
+          "Code": {
+            "type": "integer"
+          },
+          "image": {
+            "type": "string"
+          },
+          "product_name": {
+            "type": "string"
+          },
+          "current_stock": {
+            "type": "integer"
+          },
+          "New_price": {
+            "type": "number"
+          },
+          "Old_price": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "Code",
+          "image",
+          "product_name",
+          "current_stock",
+          "New_price",
+          "Old_price"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Code": {
+            "type": "integer"
+          },
+          "image": {
+            "type": "string"
+          },
+          "product_name": {
+            "type": "string"
+          },
+          "current_stock": {
+            "type": "integer"
+          },
+          "New_price": {
+            "type": "number"
+          },
+          "Old_price": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "Code",
+          "image",
+          "product_name",
+          "current_stock",
+          "New_price",
+          "Old_price"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Code": {
+            "type": "integer"
+          },
+          "image": {
+            "type": "string"
+          },
+          "product_name": {
+            "type": "string"
+          },
+          "current_stock": {
+            "type": "integer"
+          },
+          "New_price": {
+            "type": "number"
+          },
+          "Old_price": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "Code",
+          "image",
+          "product_name",
+          "current_stock",
+          "New_price",
+          "Old_price"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Code": {
+            "type": "integer"
+          },
+          "image": {
+            "type": "string"
+          },
+          "product_name": {
+            "type": "string"
+          },
+          "current_stock": {
+            "type": "integer"
+          },
+          "New_price": {
+            "type": "number"
+          },
+          "Old_price": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "Code",
+          "image",
+          "product_name",
+          "current_stock",
+          "New_price",
+          "Old_price"
+        ]
+      },
+      {
+        "type": "object",
+        "properties": {
+          "Code": {
+            "type": "integer"
+          },
+          "image": {
+            "type": "string"
+          },
+          "product_name": {
+            "type": "string"
+          },
+          "current_stock": {
+            "type": "integer"
+          },
+          "New_price": {
+            "type": "number"
+          },
+          "Old_price": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "Code",
+          "image",
+          "product_name",
+          "current_stock",
+          "New_price",
+          "Old_price"
+        ]
+      }
+    ]
+  }
