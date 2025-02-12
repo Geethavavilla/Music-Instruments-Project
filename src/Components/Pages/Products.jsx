@@ -35,7 +35,7 @@ const Products = () => {
           const { id, image, product_name, New_price, Old_price, current_stock } = product;
           return (
             <div key={id} className="card card-item" >
-              <img src={image} alt={product_name} width="50" height="50" className="products-img" />
+              <img src={image} alt={product_name} width="50" height="50" className="products-img"  onError={(e) => { e.target.src = 'https://images.pexels.com/photos/1308881/pexels-photo-1308881.jpeg?cs=srgb&dl=pexels-soldiervip-1308881.jpg&fm=jpg'; }}/>
                 <h3 className='product-name'>{product_name}</h3>
                 <p className='current-stock'>{current_stock}</p>
                 <p className="price-tag product-name" ><span className="line-strike"> ${New_price}</span>&nbsp;&nbsp;${Old_price}</p>

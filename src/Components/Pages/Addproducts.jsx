@@ -80,7 +80,7 @@ const AddProducts = () => {
 
       await response.json();
 
-      // Clear form fields after successful submission
+      
       setProductName('');
       setProductImage('');
       setNewPrice('');
@@ -88,7 +88,7 @@ const AddProducts = () => {
       setCurrentStock('');
       setErrors({});
       alert('Product added successfully!');
-      navigate('/products'); // Redirect to the products list page
+      navigate('/products'); 
     } catch (error) {
       console.error('Error adding product:', error);
       alert(`Error adding product: ${error.message}`);
@@ -102,7 +102,6 @@ const AddProducts = () => {
         <center>
           <form onSubmit={handleSubmit}>
             <div className='submit-form'>
-
               <div className="input-group">
                 <input
                   type="text"
@@ -115,7 +114,6 @@ const AddProducts = () => {
                 {errors.productName && <p className='error'>{errors.productName}</p>}
               </div>
               <div className="input-group">
-
                 <input
                   type="text"
                   value={productImage}
@@ -123,27 +121,21 @@ const AddProducts = () => {
                   className='product-name'
                   placeholder="Enter Image URL"
                   required
-
                 />
                 {errors.productImage && <p className='error'>{errors.productImage}</p>}
               </div>
               <div className="input-group">
-
                 <input
                   type="number"
                   value={newPrice}
                   onChange={(e) => setNewPrice(e.target.value)}
                   className='product-name'
-
-                placeholder="Enter New Price"
-                required
+                  placeholder="Enter New Price"
+                  required
                 />
                 {errors.newPrice && <p className='error'>{errors.newPrice}</p>}
-                
-
               </div>
               <div className="input-group">
-
                 <input
                   type="number"
                   value={oldPrice}
@@ -162,7 +154,6 @@ const AddProducts = () => {
                   className='product-name'
                   placeholder="Current Stock"
                   required
-
                 />
                 {errors.currentStock && <p className='error'>{errors.currentStock}</p>}
               </div>
